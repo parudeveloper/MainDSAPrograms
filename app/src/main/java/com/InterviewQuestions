@@ -1,0 +1,16 @@
+1.What are advantages of kotlin over Java?
+2.What is difference between var, val and const val?
+3.What is Extension function?
+4How to define extension function?
+5.How to use extension function defined in Kotlin in Java program?
+6.What is single line expression function?
+7.What is inline function?
+8.What is lambda function?
+9.How to define lambda function?
+10.What is higher order function?
+11.What is null safety in Kotlin?
+12.What is the difference between safe calls(?.) and null check (!!)
+13.What is Elvis operator in Kotlin?
+14.What is a data class in Kotlin?
+15.What is String interpolation in Kotlin?
+16.@JvmStatic, @JvmOverloads, @JvmField

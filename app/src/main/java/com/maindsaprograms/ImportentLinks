@@ -12,3 +12,58 @@ Mobile Basic Questions
 
 Google Drive Link
 https://drive.google.com/drive/u/0/folders/1_KxzTl37DmsvwAhTyAPFhMM-50SP29Jz
+
+
+Given a nested list of strings,
+write a function that flattens the list,
+ removes any strings shorter than 3 characters,
+  converts the remaining strings to uppercase,
+  and then sorts them alphabetically.
+
+fun processNestedStrings(nestedList: List<List<String>>): List<String>
+=============================================
+
+Write a function that takes a list of pairs representing city names and their populations,
+filters out cities with populations less than 1 million, groups the remaining cities by the first letter of their name,
+and returns a list of pairs where each pair consists of a letter and a list of city names.
+
+fun filterAndGroupCities(cityData: List<Pair<String, Int>>): List<Pair<Char, List<String>>>
+
+========================================================================
+Given a list of students with their scores in various subjects,
+ write a function to filter out students who scored less than 50 in any subject,
+ map the remaining students to their average score,
+ and then return a list of student names sorted by their average scores in descending order.
+
+data class Student(val name: String, val scores: List<Int>)
+fun filterMapAndSortStudents(students: List<Student>): List<String>
+
+===========================================================================
+
+Write a function that takes a list of integers,
+filters out prime numbers, squares the remaining numbers,
+and returns a new list containing only the numbers that have a digit sum (sum of their digits) greater than 10.
+
+fun complexFilterAndTransform(numbers: List<Int>): List<Int>
+===========================================================================
+
+Create a custom data structure that stores a list of product objects (each with a name, category, and price).
+Implement functions to add a product,
+remove a product by name,
+get the most expensive product,
+and get the average price of products in a given category.
+
+=====================================
+
+Given two sets of integers,
+write a function to return a set containing the symmetric difference of the two sets (elements that are in either of the sets but not in their intersection).
+
+fun symmetricDifference(set1: Set<Int>, set2: Set<Int>): Set<Int>
+
+==========================================================================]
+Write a function that takes a map of student names to their scores,
+filters out students who scored below 60,
+increases the scores of the remaining students by 10%,
+ and returns a new map with the updated scores.
+
+fun adjustScores(students: Map<String, Int>): Map<String, Int>
