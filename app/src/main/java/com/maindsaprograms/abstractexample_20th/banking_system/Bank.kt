@@ -1,8 +1,6 @@
 package com.maindsaprograms.abstractexample_20th.banking_system
 
-import com.example.androidbasicslearning.banking_system.CurrentAccount
-import com.example.androidbasicslearning.banking_system.FixedDepositAccount
-import com.example.androidbasicslearning.banking_system.SavingsAccount
+
 
 class Bank {
     var savingsAccount = mutableListOf<SavingsAccount>()

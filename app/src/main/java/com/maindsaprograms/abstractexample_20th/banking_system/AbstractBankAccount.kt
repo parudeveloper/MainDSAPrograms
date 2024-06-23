@@ -1,6 +1,5 @@
 package com.maindsaprograms.abstractexample_20th.banking_system
 
-import com.example.androidbasicslearning.banking_system.BankAccount
 
 abstract class AbstractBankAccount(var availableBalance: Double) : BankAccount {
     //var availableBalance: Double = 0.0
