@@ -17,8 +17,7 @@ inline fun performingOperation(a: Int, b: Int, operation: (a: Int, b: Int) -> In
 
 fun main() {
     // This is Our Lambda Function
-    val operation =
-        { a: Int, b: Int -> a + b } // we are calling this function in two times in our program
+    val operation = { a: Int, b: Int -> a + b } // we are calling this function in two times in our program
     println(operation(30, 3))
 
     // Here we are using inline function // function call automatically replace with function body at compile time itself
@@ -26,3 +25,4 @@ fun main() {
     println(performingOperation(30, 40, operation))
 
 }
+

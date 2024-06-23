@@ -9,7 +9,6 @@ fun main() {
         println("Array position $i and Value is ${intArray[i]}")
     }
 
-
     println()
     //Print Array Values along with Indexes using indices
     println("Print Array Values along with Indexes using indices")
@@ -17,8 +16,6 @@ fun main() {
         println("Array position $i and Value is ${intArray[i]}")
 
     }
-
-
 
     //Printing Array Values and positions using until with out mentioning the size of the array
     println()

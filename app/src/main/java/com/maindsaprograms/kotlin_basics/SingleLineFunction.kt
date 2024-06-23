@@ -9,7 +9,7 @@ package com.maindsaprograms.kotlin_basics
 
 //This is normal function
 fun square(a: Int, b: Int): Int {
-    var result = a + b
+    val result = a + b
     return result
 }
 
