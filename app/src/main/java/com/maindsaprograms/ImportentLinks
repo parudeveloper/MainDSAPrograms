@@ -1,6 +1,9 @@
 DSA Problems
 // https://docs.google.com/document/d/1FIDawbUk6CMbn5f4Oz3Jn8_X5E29FUWenS_jEFMc-gI/edit
 
+Android Interview Questions
+//https://docs.google.com/document/d/15upaCYBrU8jhN6ayZW3tKL0XZFSfuuF0TSc-vSY8yWs/edit
+
 
 Leetcode Problems
 //https://leetcode.com/problems/valid-parentheses/description/
@@ -60,10 +63,50 @@ write a function to return a set containing the symmetric difference of the two 
 
 fun symmetricDifference(set1: Set<Int>, set2: Set<Int>): Set<Int>
 
-==========================================================================]
+==========================================================================
 Write a function that takes a map of student names to their scores,
 filters out students who scored below 60,
 increases the scores of the remaining students by 10%,
  and returns a new map with the updated scores.
 
 fun adjustScores(students: Map<String, Int>): Map<String, Int>
+
+==========================================================================
+
+
+Given two sets of integers,
+write a function to return a set containing the symmetric difference of the two sets (elements that are in either of the sets but not in their intersection).
+
+fun symmetricDifference(set1: Set<Int>, set2: Set<Int>): Set<Int>
+==========================================================================
+Write a function that takes a map of student names to their scores,
+ filters out students who scored below 60, increases the scores of the remaining students by 10%,
+  and returns a new map with the updated scores.
+
+fun adjustScores(students: Map<String, Int>): Map<String, Int
+
+=========================================================================
+
+Write a function that takes a list of students, where each student is represented by a data class containing their name, a list of their subjects, and a map of their scores in those subjects. The function should perform the following tasks:
+
+Filter out students who have less than 3 subjects.
+For the remaining students, create a set of all unique subjects.
+Create a map where the keys are the subjects and the values are lists of students who have taken those subjects.
+For each subject in the map, sort the list of students by their scores in that subject in descending order.
+Return the map.
+
+=========================================================================
+For Monday morning mock(2 hours)-
+Topic is kotlin
+-> theory + coding (end to end)
+
+Focus ->
+
+Koltin basics
+OOPs concepts
+Classes,
+Functions
+Inheritance
+Abstract class
+Interface
+Collections
